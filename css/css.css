@@ -1,0 +1,472 @@
+body{
+
+}
+
+.wrapper{
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: auto;
+    position: relative;
+    margin: auto;
+}
+
+
+.wrapper .head{
+    width: 1200px;
+    height: 170px;
+    border-radius: 25px;
+    margin-left: 120px;
+    /* background-color: #f6ede0; */
+    margin: auto;
+    background-color: white;
+    /* background-color: black; */
+}
+.head .menu1 img{
+    width: 1200px;
+}
+
+
+.head .menu1 ul{
+    display: flex   
+}
+.head .menu1 ul li a{
+    color: black;
+    font-size: 16px;
+}
+
+.fa-solid{
+    width: 30px;
+    height: 28px;
+    border: 1px solid #05a4a2 ;
+}
+.head .search{
+    width: 350px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border: 1px solid #05a4a2;
+    border-radius: 10px;
+    font-size: 12px;
+}
+.head .tim{
+    background-color: #05a4a2;
+    color: white;
+    border: 1px solid #05a4a2;
+    border-radius: 2px;
+    width: 40px;
+    height: 36px;
+}
+
+
+.fa-regular{
+    margin-left: 80px;
+    width: 20px;
+    height: 20px;
+    margin-top: 50px;
+}
+.fa-regular{
+    width: 20px;
+    height: 20px;
+    margin-top: 50px;
+}
+.id{
+    font-size: 12px;
+    margin-top: 40px;
+}
+.id a{
+    text-decoration: none;
+    color: black;
+}
+
+.head .menu1 img{
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.head ul{
+    margin-top: 50px;
+    display: flex;
+    list-style: none;
+}
+.head .menu ul li{
+    margin-top: -40px;
+    margin-left: 0px;
+}
+.head .menu .dropdown a{
+    color: black;
+}
+.head .menu .dropdown a:hover{
+    color: #05a4a2;
+}
+
+
+.head .menu ul li a{
+    font-size: 14px;
+    font-family: Verdana;
+    margin: 15px;
+    text-decoration: none;
+    color:#05a4a2;
+    font-weight: bold;
+}
+.head .menu ul li a:hover {
+    color:black;
+}
+
+
+/* Kiểu nút Dropdown */
+.dropbtn {
+  width: 180px;
+  height: 30px;
+  color: white;
+  background-color: #54b9b8;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Dùng trong <div> để định vị nội dung thả xuống */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* / * Nội dung thả xuống (Ẩn theo mặc định) * / */
+.dropdown-content {
+background-color: white;
+  display: none;
+  position: absolute;
+  min-width: 260px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* / * Liên kết bên trong danh sách thả xuống * / */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* / * Thay đổi định dạng của liên kết thả xuống khi di chuột qua * / */
+.dropdown-content a:hover {
+  /* color: white; */
+}
+
+/* / * Hiển thị menu thả xuống khi di chuột * / */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* / * Thay đổi màu nền của nút thả xuống khi nội dung được hiển thị * / */
+.dropdown:hover .dropbtn {
+    /* background-color: white; */
+}
+
+
+
+#slide img {
+    width: 1200px;
+    height: 300px;
+    margin: auto;
+}
+#slide i:first-child{
+    position: absolute;
+    top: 330px;
+    left: 130px;
+    color: white;
+    font-size: 30px;
+}
+
+#slide i:last-child{
+    position: absolute;
+    top: 330px;
+    right: 130px;
+    color: white;
+    font-size: 30px;
+}
+
+
+.noidung{
+    width: auto;
+    height: auto;
+    position: relative;
+    background-color: gainsboro;
+}
+.noidung .trong{
+    width: 1200px;
+    height: auto;
+    background-color: white ;
+    margin: auto;
+}
+.noidung .trong .list{
+    /* background-color: white; */
+}
+
+.noidung .list ul{
+    margin-left: -50px;
+    display: flex;
+    margin-top: 330px;
+}
+
+.noidung .list ul li{
+    list-style: none;
+}
+
+.noidung .list ul li img{
+width: 380px;
+height: 230px;
+margin: 10px;
+margin-left: 15px;
+border: 5px solid rgb(248, 228, 231);
+border-radius: 5px;
+}
+
+.noidung .line1{
+    width: 1200px;
+    height: 5px;
+    background-color: #54b9b8;
+}
+
+.noidung .text1{
+    width: 200px;
+    height: 30px;
+    background-color: #54b9b8;
+}
+.noidung .text1 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+/* banh be gai */
+.list1 ul li{
+    list-style: none;
+    display: inline-block;  
+}
+.list1 ul li a img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.list1 ul li .text2{
+    font-size: 13px;
+    margin-left: 60px;
+}
+.list1 ul li .text3{
+    font-size: 13px;
+    margin-left: 18px;
+    color: #54b9b8;
+}
+.xemthem{
+    background-color: #54b9b8;
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    margin-left:500px ;
+    border-radius: 5px;
+}
+.xemthem a{
+    text-decoration: none;
+    color: white;
+}
+.xemthem:hover{
+    background-color: #825e35;
+}
+.xemthem a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* banh be trai */
+.list2 ul li{
+    list-style: none;
+    display: inline-block;  
+}
+.list2 ul li a img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.list2 ul li .text2{
+    font-size: 13px;
+    margin-left: 60px;
+}
+.list2 ul li .text3{
+    font-size: 13px;
+    margin-left: 18px;
+    color: #54b9b8;
+}
+
+/* bong lan trung muoi */
+.list3 ul li{
+    list-style: none;
+    display: inline-block;  
+}
+.list3 ul li a img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.list3 ul li .text2{
+    font-size: 13px;
+    margin-left: 60px;
+}
+.list3 ul li .text3{
+    font-size: 13px;
+    margin-left: 18px;
+    color: #54b9b8;
+}
+
+
+/* minicake */
+.list4 ul li{
+    list-style: none;
+    display: inline-block;  
+}
+.list4 ul li a img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.list4 ul li .text2{
+    font-size: 13px;
+    margin-left: 60px;
+}
+.list4 ul li .text3{
+    font-size: 13px;
+    margin-left: 18px;
+    color: #54b9b8;
+}
+.noidung .tintuc{
+    width: auto;
+    height: auto;
+    background-color: white ;
+    margin: auto;
+}
+
+.tin{
+    background-color: rgb(241, 235, 228);
+    text-align: center;
+    width: 150px;
+    height: 35px;
+    margin: auto;
+    border-radius: 5px;
+}
+.tin a{
+    text-decoration: none;
+    font-weight: bold;
+    color:#54b9b8;
+    font-size: 20px;
+}
+.tin a:hover{
+    color: #05a4a2;
+}
+
+.tintuc .listtin ul{
+    margin-left: 90px;
+}
+.tintuc .listtin ul li {
+    list-style: none;
+    display: inline-block;
+    width: 350px;
+    margin: 20px;
+}
+.tintuc .listtin ul li img{
+    width: 350px;
+    height: 200px;
+}
+.tintuc .listtin ul li a{
+    text-decoration: none;
+    color: black;
+}
+.address{
+    width: 1200px;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+.address .tit {
+    text-align: center;
+}
+.address .tit a{
+    margin: auto;    
+    font-weight: bold;
+    color: #54b9b8;
+    font-size: 20px;
+}
+.address p{
+    margin-top: 20px;
+}
+.address .map1{
+    width: 400px;
+    height: 200px;
+}
+
+
+
+
+/* footer */
+.footer{
+
+}
+.footer-1{
+    width: auto;
+    height: 110px;
+    background-color: #54b9b8;
+}
+.footer-1 ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    margin-left: 160px;
+    margin-top: -20px;
+}
+
+.footer-1 ul li {
+    color: white;
+    margin : 40px;   
+}
+.footer-1 ul li a{
+    color: white;
+    text-decoration: none;
+}
+.footer-1 ul li p{
+    font-size: 12px;
+}
+
+.footer-2{
+    text-align: center;
+}
+.footer-2 ul{
+    display: flex;
+}
+.footer-2 ul li{
+    list-style-type: none;
+    margin: 20px;
+}
+.footer-2 ul li a{
+    margin-left: 50px;
+}
+.footer-2 ul li .text1 {
+    color: black;
+    font-size: 18px;
+}
+.footer-2 ul li .text2{
+    color: black;
+    font-size: 12px;
+}
+
+/* // 123456788 */
+
+
+
+
